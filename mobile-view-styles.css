@@ -1,0 +1,106 @@
+@media screen and (max-width: 868px) {
+  body {
+    background-color: white;
+  }
+  .desktop-view {
+    display: none;
+  }
+  .mobile-view {
+    display: flex;
+    justify-content: space-between;
+  }
+  .nav-mobile {
+    display: flex;
+    gap: 10px;
+    justify-content: space-around;
+    border-bottom: 1px solid lightgray;
+    padding: 10px;
+  }
+  /* main */
+  .left-main, .right-main, .con-post, .stories-con, .p-opt, hr {
+    display: none;
+  }
+  
+  /*  */
+   .post-con-mobile {
+    display: flex;
+    position: relative;
+    top: 110px;
+    align-items: center;
+    justify-content: center;
+    width: 800px;
+    /* border: 1px solid black; */
+    margin: 0 auto;
+    gap: 10px;
+    padding: 10px;
+    border-bottom: 2px solid lightgrey;
+  }
+  .profile-mobile {
+     border-radius: 50%;
+     background-image: url(images/profile.jpg);
+     width: 45px;
+     height: 45px;
+     background-size: cover;
+     cursor: pointer;
+  }
+  .input-mobile {
+    padding: 10px;
+    width: 50%;
+    border-radius: 50px;
+  }
+  /* stories-con */
+.stories-con-mobile {
+    margin: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    overflow-x: scroll;
+    gap: 10px;
+    position: relative;
+    top: 110px;
+}
+.story, .story1, .story2, .story3, .story4, .story5, .story6, .story7, .story8, .story9 {
+    width: 100px;
+    height: 180px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.story-mobile {
+    background-color: white;
+    border-radius: 10px;
+    background-size: contain;
+    background-image: url(images/profile.jpg);
+    background-repeat: no-repeat;
+    position: relative;
+    opacity: 0.8;  
+    border: 1px solid transparent;
+    width: 100px;
+}
+.circle-plus-mobile {
+    position: absolute;
+    border: 5px solid white;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    bottom: 35px;
+    left: 28px;
+    background-color: black;
+    text-align: center;
+    line-height: 30px;
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+}
+.c-s-mobile {
+    position: absolute;
+    bottom: 15px;
+    left: 16px;
+    cursor: pointer;
+    font-size: 14px;
+    }
+
+.p-picture {
+  max-width: 300px;
+}
+    
+}

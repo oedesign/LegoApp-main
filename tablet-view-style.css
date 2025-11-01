@@ -1,0 +1,30 @@
+@media screen and (max-width: 1115px) {
+  /* body {
+    background-color: rgb(233, 196, 255);
+  } */
+  .logo-search-desk-con {
+    position: relative;  
+    left: 20px;
+    top: 2px;
+}
+  .search-int {
+    display: none;
+}
+nav {
+    position: relative;
+    top: -2px;
+    display: flex;
+    gap: 55px;
+    left: 20px;
+}
+/* main */
+.left-main {
+    display: none;
+}
+.right-main {
+    display: none;
+}
+.desktop-view-main {
+    justify-content: center;
+}
+}
